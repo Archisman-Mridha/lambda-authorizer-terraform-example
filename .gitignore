@@ -1,0 +1,12 @@
+*.env
+
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
+localstack_providers_override.tf
+
+outputs/
+build/
+
+*.tfvars
